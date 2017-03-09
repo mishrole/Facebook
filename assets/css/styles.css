@@ -1,0 +1,19 @@
+html{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+#container {
+	margin-top: 15%;
+}
+
+#input-email, #input-password, #login{
+	width: 20%;
+	height: 30px;
+	margin-bottom: 10px;
+}
