@@ -5,15 +5,50 @@ html{
 body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
-	text-align: center;
+}
+
+#login-title{
+	font-size: 30px;
+	color: #fff;
+}
+
+.clase-publicar{
+	width: 96%;
+	max-width: 96%;
+	height: 150px;
+	max-height: 150px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	margin: 10px;
 }
 
 #container {
 	margin-top: 15%;
+	color: #fff;
 }
 
 #input-email, #input-password, #login{
 	width: 20%;
 	height: 30px;
 	margin-bottom: 10px;
+}
+
+#container-publicar {
+	margin: 25px;
+	border: 1px solid #676767;
+	width: 700px;
+	height: 220px;
+}
+
+#login {
+	width: 20.1%;
+}
+
+#privacidad {
+	text-align: right;
+	margin-right: 15px;
+}
+
+#opciones {
+	width: 110px;
 }
