@@ -13,27 +13,23 @@
 
 			<div id="caja-publicar">
 				<form>
-				<div>
-				<label for="input-publicar"></label>
-				<textarea id="input-publicar" class="clase-publicar" placeholder="¿Qué está pasando?"></textarea>
-				</div>
+					<div>
+						<label for="input-publicar"></label>
+						<textarea id="input-publicar" class="clase-publicar" placeholder="¿Qué está pasando?"></textarea>
+					</div>
 				</form>
 			</div>
-			<form>
-			<div id="privacidad">
 
-				<select id="opciones">
-				<options value="0">Público</options>
-				<options value="1">Amigos</options>
-				<options value="2">Amigos excepto</options>
-				<options value="3">Solo yo</options>
-				<options value="4">Amigos concretos</options>
-				<options value="5">Personalizado</options>
+			<div id="privacidad">
+				<select id="opciones" name="opciones-privacidad">
+					<option value="0">Público</option>
+					<option value="amigos">Amigos</option>
+					<option value="amigos-excepto">Amigos excepto</option>
+					<option value="solo-yo">Solo yo</option>
 				</select>
 
 				<button id="publicar-post">Publicar</button>
 			</div>
-			</form>
 		</div>
 	</section>
 
